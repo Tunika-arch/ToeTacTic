@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Toe-Tac-Tic</title>
+   
+</head>
+<body>
+    <div class="title"> Tic Tac Toe!</div>
+    <div class="selection-box" data-selection-box>
+        <div class="select-player">Which player will you like to be?</div>
+        <div class="options">
+            <button class= "playerx" data-playerx>Player X</button>
+            <button class= "playero" data-playero>Player O</button>
+        </div>
+    </div>
+    
+    <div class="container" id="container">
+    <div class="turns">
+        <div class="players">
+            <span class="X'sturn">X's turn</span>
+            <span class="O'sturn">O's turn</span>
+            <div class="slider"></div>
+        </div>
+    </div>
+    <div class="board" id="board"> 
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div> 
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    
+</div>
+<div class="winning-message" id="winningMessage">
+<div class= "winning-message-text" data-winning-message-text></div>
+<button id="restartButton">Restart</button>
+</div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
